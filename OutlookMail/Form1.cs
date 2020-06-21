@@ -1,16 +1,8 @@
-﻿using Microsoft.Office.Interop.Outlook;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System;
 using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Attach = System.Net.Mail;
 using Exception = System.Exception;
 using Outlook = Microsoft.Office.Interop.Outlook;
 
@@ -133,4 +125,5 @@ namespace OutlookMail
             }
         }
     }
+    ////gchghvh
 }
