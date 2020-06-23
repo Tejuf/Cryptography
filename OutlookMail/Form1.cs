@@ -124,6 +124,12 @@ namespace OutlookMail
                 txbFile.Text = dialog.FileName;
             }
         }
+
+        private void btnRSA_Click(object sender, EventArgs e)
+        {
+            DEMO_ATTT.Form2 dlg2 = new DEMO_ATTT.Form2();
+            dlg2.ShowDialog();
+        }
     }
-    ///sadafafsagaga
+
 }
