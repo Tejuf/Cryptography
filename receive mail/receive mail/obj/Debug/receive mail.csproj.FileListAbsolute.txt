@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\receive mail\receive mail\bin\Debug\receive mail.exe.config
+C:\Users\PC\source\repos\receive mail\receive mail\bin\Debug\receive mail.exe
+C:\Users\PC\source\repos\receive mail\receive mail\bin\Debug\receive mail.pdb
+C:\Users\PC\source\repos\receive mail\receive mail\obj\Debug\receive mail.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\receive mail\receive mail\obj\Debug\receive mail.csproj.ResolveComReference.cache
+C:\Users\PC\source\repos\receive mail\receive mail\obj\Debug\receive_mail.Form1.resources
+C:\Users\PC\source\repos\receive mail\receive mail\obj\Debug\receive_mail.Properties.Resources.resources
+C:\Users\PC\source\repos\receive mail\receive mail\obj\Debug\receive mail.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\receive mail\receive mail\obj\Debug\receive mail.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\receive mail\receive mail\obj\Debug\receive mail.exe
+C:\Users\PC\source\repos\receive mail\receive mail\obj\Debug\receive mail.pdb
