@@ -132,5 +132,11 @@ namespace OutlookMail
                 txbFile.Text = dialog.FileName;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DEMO_ATTT.Form2 Bai1 = new DEMO_ATTT.Form2();
+            Bai1.ShowDialog();
+        }
     }
 }
