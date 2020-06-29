@@ -46,13 +46,14 @@
             this.btnAttachFile = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSend
             // 
             this.btnSend.Location = new System.Drawing.Point(420, 15);
-            this.btnSend.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSend.Margin = new System.Windows.Forms.Padding(4);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(99, 28);
             this.btnSend.TabIndex = 0;
@@ -73,7 +74,7 @@
             // txtTo
             // 
             this.txtTo.Location = new System.Drawing.Point(111, 60);
-            this.txtTo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTo.Margin = new System.Windows.Forms.Padding(4);
             this.txtTo.Name = "txtTo";
             this.txtTo.Size = new System.Drawing.Size(444, 22);
             this.txtTo.TabIndex = 2;
@@ -81,7 +82,7 @@
             // txtSubject
             // 
             this.txtSubject.Location = new System.Drawing.Point(112, 106);
-            this.txtSubject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSubject.Margin = new System.Windows.Forms.Padding(4);
             this.txtSubject.Name = "txtSubject";
             this.txtSubject.Size = new System.Drawing.Size(444, 22);
             this.txtSubject.TabIndex = 4;
@@ -99,7 +100,7 @@
             // txtMessage
             // 
             this.txtMessage.Location = new System.Drawing.Point(112, 153);
-            this.txtMessage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMessage.Margin = new System.Windows.Forms.Padding(4);
             this.txtMessage.Multiline = true;
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -119,7 +120,7 @@
             // webBrowser
             // 
             this.webBrowser.Location = new System.Drawing.Point(564, 60);
-            this.webBrowser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.webBrowser.Margin = new System.Windows.Forms.Padding(4);
             this.webBrowser.MinimumSize = new System.Drawing.Size(27, 25);
             this.webBrowser.Name = "webBrowser";
             this.webBrowser.Size = new System.Drawing.Size(487, 443);
@@ -134,7 +135,7 @@
             this.Sender,
             this.DateTime});
             this.dataGrid.Location = new System.Drawing.Point(48, 256);
-            this.dataGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGrid.Margin = new System.Windows.Forms.Padding(4);
             this.dataGrid.Name = "dataGrid";
             this.dataGrid.RowHeadersWidth = 51;
             this.dataGrid.Size = new System.Drawing.Size(508, 283);
@@ -177,7 +178,7 @@
             // btnReceive
             // 
             this.btnReceive.Location = new System.Drawing.Point(951, 511);
-            this.btnReceive.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReceive.Margin = new System.Windows.Forms.Padding(4);
             this.btnReceive.Name = "btnReceive";
             this.btnReceive.Size = new System.Drawing.Size(100, 28);
             this.btnReceive.TabIndex = 9;
@@ -188,7 +189,7 @@
             // txbFile
             // 
             this.txbFile.Location = new System.Drawing.Point(16, 15);
-            this.txbFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbFile.Margin = new System.Windows.Forms.Padding(4);
             this.txbFile.Name = "txbFile";
             this.txbFile.ReadOnly = true;
             this.txbFile.Size = new System.Drawing.Size(271, 22);
@@ -197,7 +198,7 @@
             // btnAttachFile
             // 
             this.btnAttachFile.Location = new System.Drawing.Point(312, 15);
-            this.btnAttachFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAttachFile.Margin = new System.Windows.Forms.Padding(4);
             this.btnAttachFile.Name = "btnAttachFile";
             this.btnAttachFile.Size = new System.Drawing.Size(100, 28);
             this.btnAttachFile.TabIndex = 1;
@@ -208,7 +209,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(527, 15);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 13;
@@ -218,19 +219,30 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(670, 15);
+            this.button2.Location = new System.Drawing.Point(790, 15);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(175, 28);
+            this.button2.Size = new System.Drawing.Size(261, 28);
             this.button2.TabIndex = 14;
-            this.button2.Text = "RSA digital signatures";
+            this.button2.Text = "Create or check RSA digital signature";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(671, 15);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(84, 28);
+            this.button3.TabIndex = 16;
+            this.button3.Text = "Sign";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1072, 554);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAttachFile);
@@ -245,7 +257,7 @@
             this.Controls.Add(this.txtTo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSend);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).EndInit();
@@ -274,6 +286,7 @@
         private System.Windows.Forms.Button btnAttachFile;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 

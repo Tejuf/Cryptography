@@ -138,5 +138,17 @@ namespace OutlookMail
             DEMO_ATTT.Form2 Bai1 = new DEMO_ATTT.Form2();
             Bai1.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.ShowDialog();
+            FileStream fs = new FileStream(ofd.FileName, FileMode.OpenOrCreate);
+            StreamReader sr = new StreamReader(fs);
+            string content = sr.ReadToEnd();
+            txtMessage.Text = txtMessage.Text.ToString() + " Digital Signature: " + content;
+            fs.Close();
+            sr.Close();
+        }
     }
 }
